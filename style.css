@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  height: 100svh;
+  width: 100svw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+}
+div {
+  height: 400px;
+  width: 250px;
+  padding: 25px;
+}
+
+h1 {
+  margin-bottom: 50px;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+button {
+  margin-top: 50px;
+  border-radius: 100px;
+  padding: 10px;
+  border: none;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.sedans button {
+  color: hsl(31, 77%, 52%);
+  font-family: "lexend Deca", sans-serif;
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.suvs button {
+  color: hsl(184, 100%, 22%);
+  font-family: "lexend Deca", sans-serif;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.luxury button {
+  color: hsl(179, 100%, 13%);
+  font-family: "lexend Deca", sans-serif;
+}
+
+img {
+  margin-bottom: 20px;
+}
